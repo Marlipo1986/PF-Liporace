@@ -1,0 +1,163 @@
+@font-face {
+  font-family: FE-Font;
+  src: url(../Respaldo/Fonts/FE-FONT.TTF);
+}
+@font-face {
+  font-family: Rasic-Life;
+  src: url(../Respaldo/Fonts/rasic_life/Rasic-Life.ttf);
+}
+@font-face {
+  font-family: Bruno-ace;
+  src: url(../Respaldo/Fonts/BrunoAceSC-Regular.ttf);
+}
+@font-face {
+  font-family: Dosis;
+  src: url(../Respaldo/Fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Signika;
+  src: url(../Respaldo/Fonts/Signika/static/Signika-Regular.ttf);
+}
+.header {
+  font-family: "Bruno-ace";
+  background-color: rgb(50, 30, 30);
+}
+
+li a {
+  transition: all 1s;
+}
+li a:link {
+  color: aliceblue;
+  text-decoration: none;
+}
+li a:hover {
+  color: darkcyan;
+  text-decoration: none;
+  background-color: rgb(57, 62, 70);
+  border: double palegreen 4px;
+  padding: 2px;
+}
+
+.emblem {
+  background-color: whitesmoke;
+}
+
+main {
+  background-color: rgb(17, 109, 110);
+}
+
+h1 {
+  font-family: "FE-Font";
+  font-size: 46px;
+  color: rgb(205, 24, 24);
+}
+
+h2 {
+  font-family: "Rasic-Life";
+}
+
+.h4 {
+  font-family: "Signika";
+  font-style: italic;
+}
+
+div p {
+  font-family: "Signika";
+}
+
+.nav-enlace {
+  font-family: "Bruno-Ace";
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 1s;
+}
+.nav-enlace:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.nav-enlace:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: rgb(57, 62, 70);
+  border: double palegreen 4px;
+  padding: 2px;
+}
+.nav-enlace:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.nav-enlace:active {
+  color: #5e4352;
+  text-decoration: none;
+}
+
+.sigamos {
+  font-family: "Dosis";
+}
+
+.grilla-services {
+  display: grid;
+  grid-template-areas: "encabezado encabezado" "svcs-ing svcs-esp" "svcs-txt-ing svcs-txt-esp" "techs techs";
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
+
+/* Inicio Areas para el grid template Services */
+.nombre-h1 {
+  grid-area: encabezado;
+}
+
+.services-ingles {
+  grid-area: svcs-ing;
+}
+
+.services-texto-ingles {
+  grid-area: svcs-txt-ing;
+}
+
+.services-esp {
+  grid-area: svcs-esp;
+}
+
+.services-texto-esp {
+  grid-area: svcs-txt-esp;
+}
+
+.skills_logos {
+  grid-area: techs;
+}
+
+/* Fin Areas para grid Services */
+.skills_logos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.skills_logos .tech_logos {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+}
+
+.tech_logos {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  font-family: "Dosis";
+}
+
+@media screen and (max-width: 768px) {
+  .embed-responsive-item {
+    width: 168px;
+    height: 94px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

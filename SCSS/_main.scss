@@ -1,0 +1,58 @@
+//Nombre principal//
+
+main{
+    background-color:$color-primario ;
+}
+
+h1{
+    font-family: $h1-fuentes;
+    font-size: $h1-size;
+    color: $color-encabezado
+}
+
+
+
+h2{
+    font-family: $texto-secundario;
+}
+
+.h4{
+    font-family: $fuente-parrafos;
+    font-style: italic;
+}
+
+div{
+    p{
+        font-family: $fuente-parrafos;
+    }
+}
+
+.nav-enlace{
+    font-family: 'Bruno-Ace' ;
+    color: $color-secundario;
+    text-decoration: none;
+    transition: all 1s;
+        &:link{
+            color: $color-secundario;
+            text-decoration: none;    
+        }
+        &:hover{
+            color: $color-secundario;
+            text-decoration: none;
+            background-color: rgb(57, 62, 70);
+            border: double palegreen 4px;
+            padding: 2px;
+        }
+        &:visited{
+            color: $color-secundario;
+            text-decoration: none;
+        }
+        &:active{
+            color: $color-links;
+            text-decoration: none;
+        }
+    }
+
+    .sigamos{
+        font-family: 'Dosis';
+      }

@@ -1,0 +1,27 @@
+//Header y recurrentes (nombre)//
+.header{
+    font-family: 'Bruno-ace';
+    background-color: $color-bg-navbar ;
+}
+
+li{
+    a{
+        transition: all 1s;
+        &:link{
+        color: aliceblue;
+        text-decoration: none;    
+        }
+        &:hover{
+        color: darkcyan;
+        text-decoration: none;
+        background-color: rgb(57, 62, 70);
+        border: double palegreen 4px;
+        padding: 2px;
+        }
+    }
+}
+
+.emblem {
+    background-color: $color-secundario;
+    }
+

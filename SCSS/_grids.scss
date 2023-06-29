@@ -1,0 +1,39 @@
+.grilla-services{
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado"
+    "svcs-ing svcs-esp"
+    "svcs-txt-ing svcs-txt-esp"
+    "techs techs";
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    }
+   
+/* Inicio Areas para el grid template Services */
+.nombre-h1{grid-area: encabezado;}
+.services-ingles{grid-area: svcs-ing;}
+.services-texto-ingles{grid-area: svcs-txt-ing;}
+.services-esp{grid-area: svcs-esp;}
+.services-texto-esp{grid-area: svcs-txt-esp;}
+.skills_logos{grid-area: techs;}
+/* Fin Areas para grid Services */
+
+.skills_logos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    .tech_logos{
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        width: 80px;
+    }
+}
+.tech_logos{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    padding-bottom: 5px;
+}
