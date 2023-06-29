@@ -42,6 +42,15 @@ li a:hover {
   background-color: whitesmoke;
 }
 
+.btn-despejar {
+  color: rgb(205, 24, 24);
+  background-color: whitesmoke;
+}
+.btn-despejar:hover {
+  color: whitesmoke;
+  background-color: rgb(205, 24, 24);
+}
+
 main {
   background-color: rgb(17, 109, 110);
 }

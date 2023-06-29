@@ -1,13 +1,29 @@
-//Nombre principal//
+// Mixins y Extends
+
+@mixin NombrePrincipal {
+    font-family: $h1-fuentes;
+    font-size: $h1-size;
+}
+
+.btn-despejar{
+    @extend .btn-primary !optional;
+    color: $color-encabezado;
+    background-color: $color-secundario;
+        &:hover{
+            color: $color-secundario;
+            background-color: $color-encabezado;
+        }
+}
 
 main{
     background-color:$color-primario ;
 }
 
+//Nombre principal//
 h1{
-    font-family: $h1-fuentes;
-    font-size: $h1-size;
-    color: $color-encabezado
+    @include NombrePrincipal();
+    color: $color-encabezado;
+    
 }
 
 
